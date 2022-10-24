@@ -1,0 +1,7 @@
+{
+  "name": "Pizzas-API",
+  "version": "1.0.0",
+  "description": "Pizzas & Orders management API",
+  "title": "Pizzas & Orders management API",
+  "url" : "http://localhost:3000/v1"
+}

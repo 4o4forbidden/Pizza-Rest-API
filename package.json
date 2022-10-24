@@ -1,0 +1,31 @@
+{
+  "name": "pizzas-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "deploy": "NODE_ENV=production pm2 start index.js -i 0 --name 'users-api'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apidoc": "0.53.1",
+    "bcryptjs": "2.4.3",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "express-rate-limit": "6.6.0",
+    "fake-user": "1.1.0",
+    "http-errors": "2.0.0",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.6.5",
+    "morgan": "1.10.0",
+    "parse-error": "0.2.0"
+  },
+  "devDependencies": {
+    "grunt-apidoc": "0.11.0"
+  }
+}
